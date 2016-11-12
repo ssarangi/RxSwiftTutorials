@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="App1_UITextField_UITextViewViewController" customModule="RxSwiftTutorials" customModuleProvider="target">
+            <connections>
+                <outlet property="textField" destination="UIC-JE-MJw" id="ugi-SL-isW"/>
+                <outlet property="textView" destination="dle-cS-N0B" id="N0r-g3-OFy"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UIC-JE-MJw">
+                    <rect key="frame" x="16" y="36" width="343" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dle-cS-N0B">
+                    <rect key="frame" x="16" y="86" width="343" height="260"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="dle-cS-N0B" firstAttribute="top" secondItem="UIC-JE-MJw" secondAttribute="bottom" constant="20" id="7pk-Pg-dJu"/>
+                <constraint firstItem="UIC-JE-MJw" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="eNK-u8-r39"/>
+                <constraint firstAttribute="trailing" secondItem="UIC-JE-MJw" secondAttribute="trailing" constant="16" id="i7o-mm-MUU"/>
+                <constraint firstItem="UIC-JE-MJw" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="36" id="iTB-c7-QqU"/>
+                <constraint firstAttribute="trailing" secondItem="dle-cS-N0B" secondAttribute="trailing" constant="16" id="p3p-dr-GhH"/>
+                <constraint firstItem="dle-cS-N0B" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="rXg-I4-Hn6"/>
+                <constraint firstAttribute="bottom" secondItem="dle-cS-N0B" secondAttribute="bottom" constant="321" id="sF5-5m-j9M"/>
+            </constraints>
+            <point key="canvasLocation" x="34.5" y="54.5"/>
+        </view>
+    </objects>
+</document>

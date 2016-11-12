@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		034F14541DD79C5700B63CF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F14531DD79C5700B63CF2 /* AppDelegate.swift */; };
-		034F14561DD79C5700B63CF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F14551DD79C5700B63CF2 /* ViewController.swift */; };
+		034F14561DD79C5700B63CF2 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F14551DD79C5700B63CF2 /* RootViewController.swift */; };
 		034F14591DD79C5700B63CF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034F14571DD79C5700B63CF2 /* Main.storyboard */; };
 		034F145B1DD79C5700B63CF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 034F145A1DD79C5700B63CF2 /* Assets.xcassets */; };
 		034F145E1DD79C5700B63CF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034F145C1DD79C5700B63CF2 /* LaunchScreen.storyboard */; };
+		0352566A1DD7ABD500703C52 /* App1+UITextField+UITextViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035256681DD7ABD500703C52 /* App1+UITextField+UITextViewViewController.swift */; };
+		0352566B1DD7ABD500703C52 /* App1+UITextField+UITextViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 035256691DD7ABD500703C52 /* App1+UITextField+UITextViewViewController.xib */; };
+		E3F4424CD969C03B71297745 /* Pods_RxSwiftTutorials.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE0A2C6179771AF626C6D2C /* Pods_RxSwiftTutorials.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		034F14501DD79C5700B63CF2 /* RxSwiftTutorials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftTutorials.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		034F14531DD79C5700B63CF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		034F14551DD79C5700B63CF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		034F14551DD79C5700B63CF2 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		034F14581DD79C5700B63CF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		034F145A1DD79C5700B63CF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		034F145D1DD79C5700B63CF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		034F145F1DD79C5700B63CF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		035256681DD7ABD500703C52 /* App1+UITextField+UITextViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "App1+UITextField+UITextViewViewController.swift"; sourceTree = "<group>"; };
+		035256691DD7ABD500703C52 /* App1+UITextField+UITextViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "App1+UITextField+UITextViewViewController.xib"; sourceTree = "<group>"; };
+		CCE0A2C6179771AF626C6D2C /* Pods_RxSwiftTutorials.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftTutorials.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC667AC7780CAF39C884891 /* Pods-RxSwiftTutorials.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftTutorials.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftTutorials/Pods-RxSwiftTutorials.debug.xcconfig"; sourceTree = "<group>"; };
+		F4B5C04B3D12DF2C9AA2C79D /* Pods-RxSwiftTutorials.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftTutorials.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftTutorials/Pods-RxSwiftTutorials.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3F4424CD969C03B71297745 /* Pods_RxSwiftTutorials.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +49,8 @@
 			children = (
 				034F14521DD79C5700B63CF2 /* RxSwiftTutorials */,
 				034F14511DD79C5700B63CF2 /* Products */,
+				6AFFA26D7B730C54F026E071 /* Pods */,
+				E10C13DB74A3750401B19795 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +65,41 @@
 		034F14521DD79C5700B63CF2 /* RxSwiftTutorials */ = {
 			isa = PBXGroup;
 			children = (
+				035256671DD7AB9500703C52 /* ViewControllers */,
 				034F14531DD79C5700B63CF2 /* AppDelegate.swift */,
-				034F14551DD79C5700B63CF2 /* ViewController.swift */,
+				034F14551DD79C5700B63CF2 /* RootViewController.swift */,
 				034F14571DD79C5700B63CF2 /* Main.storyboard */,
 				034F145A1DD79C5700B63CF2 /* Assets.xcassets */,
 				034F145C1DD79C5700B63CF2 /* LaunchScreen.storyboard */,
 				034F145F1DD79C5700B63CF2 /* Info.plist */,
 			);
 			path = RxSwiftTutorials;
+			sourceTree = "<group>";
+		};
+		035256671DD7AB9500703C52 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				035256681DD7ABD500703C52 /* App1+UITextField+UITextViewViewController.swift */,
+				035256691DD7ABD500703C52 /* App1+UITextField+UITextViewViewController.xib */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6AFFA26D7B730C54F026E071 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ECC667AC7780CAF39C884891 /* Pods-RxSwiftTutorials.debug.xcconfig */,
+				F4B5C04B3D12DF2C9AA2C79D /* Pods-RxSwiftTutorials.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E10C13DB74A3750401B19795 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCE0A2C6179771AF626C6D2C /* Pods_RxSwiftTutorials.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +109,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 034F14621DD79C5700B63CF2 /* Build configuration list for PBXNativeTarget "RxSwiftTutorials" */;
 			buildPhases = (
+				4D7C4B57425FCF708AC26BF3 /* [CP] Check Pods Manifest.lock */,
 				034F144C1DD79C5700B63CF2 /* Sources */,
 				034F144D1DD79C5700B63CF2 /* Frameworks */,
 				034F144E1DD79C5700B63CF2 /* Resources */,
+				EB3A97D7B52FEF5951C74284 /* [CP] Embed Pods Frameworks */,
+				FF7A1EEB324974132D6BFDB2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,19 +167,69 @@
 			files = (
 				034F145E1DD79C5700B63CF2 /* LaunchScreen.storyboard in Resources */,
 				034F145B1DD79C5700B63CF2 /* Assets.xcassets in Resources */,
+				0352566B1DD7ABD500703C52 /* App1+UITextField+UITextViewViewController.xib in Resources */,
 				034F14591DD79C5700B63CF2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4D7C4B57425FCF708AC26BF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EB3A97D7B52FEF5951C74284 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftTutorials/Pods-RxSwiftTutorials-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF7A1EEB324974132D6BFDB2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftTutorials/Pods-RxSwiftTutorials-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		034F144C1DD79C5700B63CF2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				034F14561DD79C5700B63CF2 /* ViewController.swift in Sources */,
+				034F14561DD79C5700B63CF2 /* RootViewController.swift in Sources */,
 				034F14541DD79C5700B63CF2 /* AppDelegate.swift in Sources */,
+				0352566A1DD7ABD500703C52 /* App1+UITextField+UITextViewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +348,7 @@
 		};
 		034F14631DD79C5700B63CF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECC667AC7780CAF39C884891 /* Pods-RxSwiftTutorials.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = G864RAJPSL;
@@ -270,6 +362,7 @@
 		};
 		034F14641DD79C5700B63CF2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4B5C04B3D12DF2C9AA2C79D /* Pods-RxSwiftTutorials.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = G864RAJPSL;
@@ -300,6 +393,7 @@
 				034F14641DD79C5700B63CF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
